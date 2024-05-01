@@ -1,0 +1,15 @@
+com.cognizant
+com.cognizant.auth.controllers
+com.cognizant.auth.entities
+com.cognizant.auth.repositories
+com.cognizant.auth.service
+com.cognizant.configuration
+com.cognizant.controller
+com.cognizant.dto
+com.cognizant.entities
+com.cognizant.exceptions
+com.cognizant.main
+com.cognizant.repositories
+com.cognizant.services
+com.cognizant.services.impl
+com.cognizant.validation
