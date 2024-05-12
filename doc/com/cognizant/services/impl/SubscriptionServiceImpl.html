@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="dc.created" content="2024-04-18">
-<meta name="description" content="declaration: package: com.cognizant.services.impl, class: SubscriptionServiceImpl">
+<meta name="description" content="declaration: package: com.policy.services.impl, class: SubscriptionServiceImpl">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../script-dir/jquery-ui.min.css" title="Style">
@@ -69,22 +69,22 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.cognizant.services.impl</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.policy.services.impl</a></div>
 <h1 title="Class SubscriptionServiceImpl" class="title">Class SubscriptionServiceImpl</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
-<div class="inheritance">com.cognizant.services.impl.SubscriptionServiceImpl</div>
+<div class="inheritance">com.policy.services.impl.SubscriptionServiceImpl</div>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
 <dt>All Implemented Interfaces:</dt>
-<dd><code><a href="../SubscriptionService.html" title="interface in com.cognizant.services">SubscriptionService</a></code></dd>
+<dd><code><a href="../SubscriptionService.html" title="interface in com.policy.services">SubscriptionService</a></code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="annotations">@Service
 </span><span class="modifiers">public class </span><span class="element-name type-name-label">SubscriptionServiceImpl</span>
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-implements <a href="../SubscriptionService.html" title="interface in com.cognizant.services">SubscriptionService</a></span></div>
+implements <a href="../SubscriptionService.html" title="interface in com.policy.services">SubscriptionService</a></span></div>
 <div class="block">This class implements the SubscriptionService interface.</div>
 </section>
 <section class="summary">
@@ -113,9 +113,9 @@ implements <a href="../SubscriptionService.html" title="interface in com.cogniza
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="../../dto/SubscriptionDTO.html" title="class in com.cognizant.dto">SubscriptionDTO</a></code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="../../dto/SubscriptionDTO.html" title="class in com.policy.dto">SubscriptionDTO</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#addNewSubscription(int,com.cognizant.dto.SubscriptionDTO)" class="member-name-link">addNewSubscription</a><wbr>(int&nbsp;policyId,
- <a href="../../dto/SubscriptionDTO.html" title="class in com.cognizant.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</code></div>
+ <a href="../../dto/SubscriptionDTO.html" title="class in com.policy.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">This method add a new subscriber into subscription table.</div>
 </div>
@@ -125,7 +125,7 @@ implements <a href="../SubscriptionService.html" title="interface in com.cogniza
 <div class="block">This method finds the subscriber based on PolicyHolderIdProofNo and helps to avoid duplicate subscriber.</div>
 </div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>boolean</code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#subscriptionExists(com.cognizant.dto.SubscriptionDTO)" class="member-name-link">subscriptionExists</a><wbr>(<a href="../../dto/SubscriptionDTO.html" title="class in com.cognizant.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#subscriptionExists(com.cognizant.dto.SubscriptionDTO)" class="member-name-link">subscriptionExists</a><wbr>(<a href="../../dto/SubscriptionDTO.html" title="class in com.policy.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
 <div class="block">This method checks if the subscriber already exist or not.</div>
 </div>
@@ -163,12 +163,12 @@ implements <a href="../SubscriptionService.html" title="interface in com.cogniza
 <li>
 <section class="detail" id="addNewSubscription(int,com.cognizant.dto.SubscriptionDTO)">
 <h3>addNewSubscription</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../dto/SubscriptionDTO.html" title="class in com.cognizant.dto">SubscriptionDTO</a></span>&nbsp;<span class="element-name">addNewSubscription</span><wbr><span class="parameters">(int&nbsp;policyId,
- <a href="../../dto/SubscriptionDTO.html" title="class in com.cognizant.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../dto/SubscriptionDTO.html" title="class in com.policy.dto">SubscriptionDTO</a></span>&nbsp;<span class="element-name">addNewSubscription</span><wbr><span class="parameters">(int&nbsp;policyId,
+ <a href="../../dto/SubscriptionDTO.html" title="class in com.policy.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</span></div>
 <div class="block">This method add a new subscriber into subscription table.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
-<dd><code><a href="../SubscriptionService.html#addNewSubscription(int,com.cognizant.dto.SubscriptionDTO)">addNewSubscription</a></code>&nbsp;in interface&nbsp;<code><a href="../SubscriptionService.html" title="interface in com.cognizant.services">SubscriptionService</a></code></dd>
+<dd><code><a href="../SubscriptionService.html#addNewSubscription(int,com.cognizant.dto.SubscriptionDTO)">addNewSubscription</a></code>&nbsp;in interface&nbsp;<code><a href="../SubscriptionService.html" title="interface in com.policy.services">SubscriptionService</a></code></dd>
 <dt>Parameters:</dt>
 <dd><code>policyId</code> - </dd>
 <dd><code>subscriptionDTO</code> - </dd>
@@ -179,7 +179,7 @@ implements <a href="../SubscriptionService.html" title="interface in com.cogniza
 <li>
 <section class="detail" id="subscriptionExists(com.cognizant.dto.SubscriptionDTO)">
 <h3>subscriptionExists</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">subscriptionExists</span><wbr><span class="parameters">(<a href="../../dto/SubscriptionDTO.html" title="class in com.cognizant.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">subscriptionExists</span><wbr><span class="parameters">(<a href="../../dto/SubscriptionDTO.html" title="class in com.policy.dto">SubscriptionDTO</a>&nbsp;subscriptionDTO)</span></div>
 <div class="block">This method checks if the subscriber already exist or not. It helps to avoid the duplicate subscriber for the same policy.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -195,7 +195,7 @@ implements <a href="../SubscriptionService.html" title="interface in com.cogniza
 <div class="block">This method finds the subscriber based on PolicyHolderIdProofNo and helps to avoid duplicate subscriber.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
-<dd><code><a href="../SubscriptionService.html#findByPolicyHolderIdProofNo(java.lang.String)">findByPolicyHolderIdProofNo</a></code>&nbsp;in interface&nbsp;<code><a href="../SubscriptionService.html" title="interface in com.cognizant.services">SubscriptionService</a></code></dd>
+<dd><code><a href="../SubscriptionService.html#findByPolicyHolderIdProofNo(java.lang.String)">findByPolicyHolderIdProofNo</a></code>&nbsp;in interface&nbsp;<code><a href="../SubscriptionService.html" title="interface in com.policy.services">SubscriptionService</a></code></dd>
 <dt>Parameters:</dt>
 <dd><code>value</code> - </dd>
 <dt>Returns:</dt>

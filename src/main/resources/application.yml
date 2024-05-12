@@ -10,7 +10,7 @@ spring:
     application:
         name : policy-plans-service
 springdoc:
-    packages-to-scan: com.cognizant.controller
+    packages-to-scan: com.policy.controller
 
 #eureka:
 #    instance:

@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="dc.created" content="2024-04-18">
-<meta name="description" content="declaration: package: com.cognizant.services, interface: PolicyService">
+<meta name="description" content="declaration: package: com.policy.services, interface: PolicyService">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../script-dir/jquery-ui.min.css" title="Style">
@@ -69,13 +69,13 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.cognizant.services</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.policy.services</a></div>
 <h1 title="Interface PolicyService" class="title">Interface PolicyService</h1>
 </div>
 <section class="class-description" id="class-description">
 <dl class="notes">
 <dt>All Known Implementing Classes:</dt>
-<dd><code><a href="impl/PolicyServiceImpl.html" title="class in com.cognizant.services.impl">PolicyServiceImpl</a></code></dd>
+<dd><code><a href="impl/PolicyServiceImpl.html" title="class in com.policy.services.impl">PolicyServiceImpl</a></code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">PolicyService</span></div>
@@ -95,18 +95,18 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
-<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#createNewPolicy(com.cognizant.dto.PolicyDTO)" class="member-name-link">createNewPolicy</a><wbr>(<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&nbsp;policyDTO)</code></div>
+<div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#createNewPolicy(com.cognizant.dto.PolicyDTO)" class="member-name-link">createNewPolicy</a><wbr>(<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&nbsp;policyDTO)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a></code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#searchPolicyById(int)" class="member-name-link">searchPolicyById</a><wbr>(int&nbsp;id)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">&nbsp;</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&gt;</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&gt;</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#searchPolicyByMaturityAmount(double)" class="member-name-link">searchPolicyByMaturityAmount</a><wbr>(double&nbsp;maturityAmount)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&gt;</code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&gt;</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#searchPolicyByPremiumAmount(int)" class="member-name-link">searchPolicyByPremiumAmount</a><wbr>(int&nbsp;premiumAmount)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">&nbsp;</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&gt;</code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&gt;</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3"><code><a href="#searchPolicyByTenure(int)" class="member-name-link">searchPolicyByTenure</a><wbr>(int&nbsp;tenure)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab3">&nbsp;</div>
 </div>
@@ -126,31 +126,31 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="createNewPolicy(com.cognizant.dto.PolicyDTO)">
 <h3>createNewPolicy</h3>
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">createNewPolicy</span><wbr><span class="parameters">(<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&nbsp;policyDTO)</span></div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">createNewPolicy</span><wbr><span class="parameters">(<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&nbsp;policyDTO)</span></div>
 </section>
 </li>
 <li>
 <section class="detail" id="searchPolicyById(int)">
 <h3>searchPolicyById</h3>
-<div class="member-signature"><span class="return-type"><a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a></span>&nbsp;<span class="element-name">searchPolicyById</span><wbr><span class="parameters">(int&nbsp;id)</span></div>
+<div class="member-signature"><span class="return-type"><a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a></span>&nbsp;<span class="element-name">searchPolicyById</span><wbr><span class="parameters">(int&nbsp;id)</span></div>
 </section>
 </li>
 <li>
 <section class="detail" id="searchPolicyByTenure(int)">
 <h3>searchPolicyByTenure</h3>
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&gt;</span>&nbsp;<span class="element-name">searchPolicyByTenure</span><wbr><span class="parameters">(int&nbsp;tenure)</span></div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&gt;</span>&nbsp;<span class="element-name">searchPolicyByTenure</span><wbr><span class="parameters">(int&nbsp;tenure)</span></div>
 </section>
 </li>
 <li>
 <section class="detail" id="searchPolicyByMaturityAmount(double)">
 <h3>searchPolicyByMaturityAmount</h3>
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&gt;</span>&nbsp;<span class="element-name">searchPolicyByMaturityAmount</span><wbr><span class="parameters">(double&nbsp;maturityAmount)</span></div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&gt;</span>&nbsp;<span class="element-name">searchPolicyByMaturityAmount</span><wbr><span class="parameters">(double&nbsp;maturityAmount)</span></div>
 </section>
 </li>
 <li>
 <section class="detail" id="searchPolicyByPremiumAmount(int)">
 <h3>searchPolicyByPremiumAmount</h3>
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.cognizant.dto">PolicyDTO</a>&gt;</span>&nbsp;<span class="element-name">searchPolicyByPremiumAmount</span><wbr><span class="parameters">(int&nbsp;premiumAmount)</span></div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../dto/PolicyDTO.html" title="class in com.policy.dto">PolicyDTO</a>&gt;</span>&nbsp;<span class="element-name">searchPolicyByPremiumAmount</span><wbr><span class="parameters">(int&nbsp;premiumAmount)</span></div>
 </section>
 </li>
 </ul>
